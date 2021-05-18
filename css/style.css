@@ -1,0 +1,44 @@
+body {
+    position: relative; 
+  }
+  .navbar-brand > .logo {
+      margin-top: -10px;
+  }
+  #section1 {
+      padding-top:50px;
+      width: 100%;
+      height:900px;
+      background: url(../images/bg_3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  #section2 {
+      padding-top:50px;
+      height:800px; 
+      background-color: #673ab7;
+  }
+  #section3 {
+      padding-top:50px;
+      height:800px;
+      background-color: #ff9800;
+  }
+  #section4 {
+      padding-top:50px;
+      height:800px; 
+      background-color: #00bcd4
+  }
+
+@media (max-width: 767px) {
+    #section1 {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 321px) {
+    #section1 {
+        width: 100%;
+        height: 300px;
+    }
+}
