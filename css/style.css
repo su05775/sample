@@ -12,7 +12,8 @@ body {
 }
 
 .navbar-brand .logo {
-    margin-top: -9px;
+    margin-top: -7px;
+    width: 90%;
 }
 
 .navbar-default .navbar-toggle .icon-bar  {
